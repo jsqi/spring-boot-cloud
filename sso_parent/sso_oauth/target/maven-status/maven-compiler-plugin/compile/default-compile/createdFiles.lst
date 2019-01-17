@@ -1,0 +1,4 @@
+com/mars/oauth/OAuthApplication.class
+com/mars/oauth/controller/OauthController.class
+com/mars/oauth/client/BaseClientImpl.class
+com/mars/oauth/client/BaseClient.class

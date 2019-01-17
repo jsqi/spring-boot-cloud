@@ -1,0 +1,10 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: sso-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/marsSoybean/config.git
