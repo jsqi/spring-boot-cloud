@@ -1,6 +1,0 @@
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/domain/AdminInfo.java
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/dao/AdminInfoDao.java
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/handler/BaseExceptionHandler.java
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/controller/BaseController.java
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/servicce/AdminInfoService.java
-/F/project/spring-boot-cloud/sso_parent/sso_base/src/main/java/com/mars/base/BaseApplication.java

@@ -1,6 +1,0 @@
-com/mars/base/BaseApplication.class
-com/mars/base/handler/BaseExceptionHandler.class
-com/mars/base/servicce/AdminInfoService.class
-com/mars/base/dao/AdminInfoDao.class
-com/mars/base/domain/AdminInfo.class
-com/mars/base/controller/BaseController.class
