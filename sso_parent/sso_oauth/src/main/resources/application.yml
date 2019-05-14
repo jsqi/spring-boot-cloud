@@ -12,6 +12,8 @@ spring:
     database: mysql
     show-sql: true
     generate-ddl: true
+  zipkin:
+    base-url: http://localhost:9097
 eureka:
   client:
     service-url:
@@ -21,3 +23,7 @@ eureka:
 feign:
   hystrix:
     enabled: true
+zipkin:
+  server:
+    host: localhost
+    port: 20000

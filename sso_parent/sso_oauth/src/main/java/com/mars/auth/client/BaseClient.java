@@ -1,4 +1,4 @@
-package com.mars.oauth.client;
+package com.mars.auth.client;
 
 import com.mars.domain.eneity.Resault;
 import org.springframework.cloud.openfeign.FeignClient;

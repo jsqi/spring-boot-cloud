@@ -1,0 +1,32 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: sso-springboot-admin
+  zipkin:
+    base-url: http://localhost:9097
+  security:
+    user:
+      name: root
+      password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+        startup: ${random.int}
+        user.name: ${spring.security.user.name}
+        user.password: ${spring.security.user.password}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

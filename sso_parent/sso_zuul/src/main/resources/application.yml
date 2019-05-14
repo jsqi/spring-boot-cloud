@@ -19,4 +19,4 @@ zuul:
       serrviceId: sso-base
     sso-oauth:
       path: /aouth/**
-      serrviceId: sso-oauth
+      serrviceId: sso-auth

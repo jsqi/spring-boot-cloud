@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/marsSoybean/config.git
+          uri: https://gitee.com/didispace/config-repo-demo/

@@ -12,6 +12,7 @@
     <artifactId>sso_eureka</artifactId>
 
     <dependencies>
+        <!--eureka服务-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>

@@ -1,5 +1,6 @@
 package com.mars.base.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -12,6 +13,7 @@ public class AdminInfo implements Serializable {
     @Id
     private String id;
 
+    @Column(name = "admin_code")
     private String adminCode;
 
     public String getId() {
