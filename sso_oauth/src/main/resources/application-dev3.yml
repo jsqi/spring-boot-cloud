@@ -1,0 +1,28 @@
+server:
+  port: 7073
+spring:
+  application:
+    name: sso-oauth
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sso_new?serverTimezone=UTC&characterEncoding=utf8
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+  zipkin:
+    base-url: http://localhost:9097
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://dev1:1111/eureka/,http://dev2:1112/eureka/,http://dev3:1113/eureka/
+feign:
+  hystrix:
+    enabled: true
+zipkin:
+  server:
+    host: localhost
+    port: 20000

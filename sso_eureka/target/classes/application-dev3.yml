@@ -1,0 +1,14 @@
+server:
+  port: 1113
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://dev1:1111/eureka/,http://dev2:1112/eureka/
+  instance:
+    hostname: dev3
+    prefer-ip-address: false
+spring:
+  application:
+    name: eureka-server
